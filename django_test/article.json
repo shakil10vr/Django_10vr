@@ -1,0 +1,154 @@
+[
+{
+    "fields": {
+        "body": "This document describes Django\u2019s file access APIs for files such as those uploaded by a user. The lower level APIs are general enough that you could use them for other purposes. If you want to handle \u201cstatic files\u201d (JS, CSS, etc), see Managing static files (CSS, images).\r\n\r\nBy default, Django stores files locally, using the MEDIA_ROOT and MEDIA_URL settings. The examples below assume that you\u2019re using these defaults.\r\n\r\nHowever, Django provides ways to write custom file storage systems that allow you to completely customize where and how Django stores files. The second half of this document describes how these storage systems work.",
+        "thumbnail": "",
+        "pub_date": "2014-12-28T15:49:09Z",
+        "likes": 5,
+        "title": "test 1"
+    },
+    "model": "article.article",
+    "pk": 1
+},
+{
+    "fields": {
+        "body": "This document describes Django\u2019s file access APIs for files such as those uploaded by a user. The lower level APIs are general enough that you could use them for other purposes. If you want to handle \u201cstatic files\u201d (JS, CSS, etc), see Managing static files (CSS, images).\r\n\r\nBy default, Django stores files locally, using the MEDIA_ROOT and MEDIA_URL settings. The examples below assume that you\u2019re using these defaults.\r\n\r\nHowever, Django provides ways to write custom file storage systems that allow you to completely customize where and how Django stores files. The second half of this document describes how these storage systems work.",
+        "thumbnail": "",
+        "pub_date": "2014-12-28T15:49:58Z",
+        "likes": 2,
+        "title": "test 2"
+    },
+    "model": "article.article",
+    "pk": 2
+},
+{
+    "fields": {
+        "body": "This document describes Django\u2019s file access APIs for files such as those uploaded by a user. The lower level APIs are general enough that you could use them for other purposes. If you want to handle \u201cstatic files\u201d (JS, CSS, etc), see Managing static files (CSS, images).\r\n\r\nBy default, Django stores files locally, using the MEDIA_ROOT and MEDIA_URL settings. The examples below assume that you\u2019re using these defaults.\r\n\r\nHowever, Django provides ways to write custom file storage systems that allow you to completely customize where and how Django stores files. The second half of this document describes how these storage systems work.",
+        "thumbnail": "",
+        "pub_date": "2014-12-28T15:50:28Z",
+        "likes": 1,
+        "title": "test 3"
+    },
+    "model": "article.article",
+    "pk": 3
+},
+{
+    "fields": {
+        "body": "As these archives contains the source, your system needs the required programming languages to compile and build the source. so the general requirement packages stated above may not be sufficient for you. in that case you have to install the required packages through one of the processes #1,#2,#3 (requires internet connection). you can know about the dependencies about your software in a readme file included in the archives.",
+        "thumbnail": "",
+        "pub_date": "2015-02-25T13:47:15Z",
+        "likes": 1,
+        "title": "Test 4"
+    },
+    "model": "article.article",
+    "pk": 4
+},
+{
+    "fields": {
+        "body": "The aim of this next part of the tutorial is to get you familiar with the user authentication mechanisms provided by Django. We\u2019ll be using the auth application provided as part of a standard Django installation in package django.contrib.auth. According to Django\u2019s official documentation on Authentication, the application consists of the following aspects.\r\n\r\n    Users.\r\n    Permissions: a series of binary flags (e.g. yes/no) determining what a user may or may not do.\r\n    Groups: a method of applying permissions to more than one user.\r\n    A configurable password hashing system: a must for ensuring data security.\r\n    Forms and view tools for logging in users, or restricting content.\r\n",
+        "thumbnail": "",
+        "pub_date": "2015-02-25T12:09:39Z",
+        "likes": 0,
+        "title": "Test 5"
+    },
+    "model": "article.article",
+    "pk": 5
+},
+{
+    "fields": {
+        "body": "\u099f\u09c7\u09ae\u09aa\u09cd\u09b2\u09c7\u099f \u098f\u09b0 \u09ad\u09bf\u09a4\u09b0 \u0986\u09aa\u09a8\u09bf \u09b8\u09be\u09ac-\u099f\u09c7\u09ae\u09aa\u09cd\u09b2\u09c7\u099f \u0987\u099e\u09cd\u099c\u09c7\u0995\u09cd\u099f \u0995\u09b0\u09a4\u09c7 \u09aa\u09be\u09b0\u09c7\u09a8, \u09a4\u09be\u09b9\u09b2\u09c7 \u0986\u09aa\u09a8\u09be\u09b0 comment.html \u09b6\u09c1\u09a7\u09c1 \u0995\u09ae\u09c7\u09a8\u09cd\u099f \u09ab\u09b0\u09cd\u09ae \u09b0\u09be\u0996\u09ac\u09c7 \u098f\u09ac\u0982 \u0985\u09a8\u09cd\u09af \u09b8\u09ae\u09b8\u09cd\u09a4 \u09aa\u09c7\u0987\u099c\u09c7 \u0986\u09aa\u09a8\u09bf \u09b8\u09c7\u0987 \u09b8\u09be\u09ac-\u099f\u09c7\u09ae\u09aa\u09cd\u09b2\u09c7\u099f\u0995\u09c7 \u0987\u09a8\u0995\u09cd\u09b2\u09c1\u09a1 \u0995\u09b0\u09c7 \u09a6\u09bf\u09ac\u09c7\u09a8\u0964 \u0986\u09ac\u09be\u09b0, \u098f\u09b0 \u0989\u09b2\u099f\u09be\u0993 \u09b9\u09df, \u0985\u09b0\u09cd\u09a5\u09be\u09ce, \u0986\u09aa\u09a8\u09bf \u098f\u0995\u099f\u09bf \u09ae\u09b9\u09be \u099f\u09c7\u09ae\u09aa\u09cd\u09b2\u09c7\u099f \u09ac\u09be\u09a8\u09be\u09a4\u09c7 \u09aa\u09be\u09b0\u09c7\u09a8 \u09af\u09be\u09b0 \u09ad\u09bf\u09a4\u09b0 \u0995\u09bf\u099b\u09c1 \u09ac\u09cd\u09b2\u0995 \u0996\u09be\u09b2\u09bf \u09a5\u09be\u0995\u09ac\u09c7, \u0986\u09b0 \u0995\u09bf\u099b\u09c1 \u09aa\u09be\u099f\u09bf \u099f\u09c7\u09ae\u09aa\u09cd\u09b2\u09c7\u099f \u09ac\u09be\u09a8\u09bf\u09df\u09c7 \u0993\u0987 \u09ae\u09b9\u09be \u099f\u09c7\u09ae\u09cd\u09aa\u09b2\u09c7\u099f\u09c7\u09b0 \u09b8\u09be\u09a5\u09c7 \u098f\u09ae\u09a8\u09ad\u09be\u09ac\u09c7 \u09ac\u09c7\u09a7\u09c7 \u09a6\u09bf\u09ac\u09c7\u09a8 \u09af\u09c7\u09a8 \u09aa\u09be\u099f\u09bf \u099f\u09c7\u09ae\u09aa\u09cd\u09b2\u09c7\u099f \u09b6\u09c1\u09a7\u09c1 \u0985\u0987 \u09ac\u09cd\u09b2\u0995\u09c7\u09b0 \u09ad\u09bf\u09a4\u09b0\u09c7\u0987 \u09a5\u09be\u0995\u09c7, \u0986\u09b0 \u09ac\u09be\u09a6\u09ac\u09be\u0995\u09bf \u09b8\u09ac \u0993\u0987 \u09ae\u09b9\u09be \u099f\u09c7\u09ae\u09aa\u09cd\u09b2\u09c7\u099f \u09a5\u09c7\u0995\u09c7\u0987 \u0986\u09b8\u09ac\u09c7\u0964 \u0985\u09b0\u09cd\u09a5\u09be\u09ce \u0986\u09aa\u09a8\u09be\u09b0 base.html \u09af\u09a6\u09bf \u09a5\u09be\u0995\u09c7 \u09af\u09c7\u0996\u09be\u09a8\u09c7 \u0986\u09aa\u09a8\u09bf \u09b9\u09c7\u09a1\u09be\u09b0, \u09ab\u09c1\u099f\u09be\u09b0, \u099c\u09be\u09ad\u09be\u09b8\u09cd\u0995\u09cd\u09b0\u09bf\u09aa\u09cd\u099f \u0987\u09a4\u09cd\u09af\u09be\u09a6\u09bf \u09b2\u09bf\u0996\u09c7\u09a8 \u098f\u09ac\u0982 \u09ad\u09bf\u09a4\u09b0\u09c7 \u0995\u09bf\u099b\u09c1 \u098f\u09b2\u09be\u0995\u09be \u09ae\u09be\u09b0\u09cd\u0995 \u0995\u09b0\u09c7 \u09b0\u09be\u0996\u09c7\u09a8 \u0995\u09a8\u09cd\u099f\u09c7\u09a8\u09cd\u099f\u09c7\u09b0 \u099c\u09a8\u09cd\u09af, \u09a4\u09be\u09b9\u09b2\u09c7 \u09ac\u09bf\u09ad\u09bf\u09a8\u09cd\u09a8 \u09aa\u09c7\u0987\u099c \u099f\u09c7\u09ae\u09aa\u09cd\u09b2\u09c7\u099f \u09b6\u09c1\u09a7\u09c1 \u0985\u0987 \u09ae\u09be\u09b0\u09cd\u0995 \u0995\u09b0\u09be \u098f\u09b2\u09be\u0995\u09be\u0987 \u09b2\u09bf\u0996\u09ac\u09c7, \u0986\u09b0 \u0989\u09aa\u09b0 \u09a8\u09bf\u099a, \u09a1\u09be\u0987\u09a8 \u09ac\u09be\u09ae\u09c7\u09b0 \u09b8\u09ae\u09b8\u09cd\u09a4 \u0995\u09a5\u09be \u09ac\u09be\u09b0\u09cd\u09a4\u09be \u09b8\u09c7\u0987 \u099f\u09c7\u09ae\u09aa\u09cd\u09b2\u09c7\u099f \u09a5\u09c7\u0995\u09c7 \u0986\u09b8\u09ac\u09c7\u0964 \u098f\u0995 \u09ac\u09b2\u09c7 \u099f\u09c7\u09ae\u09aa\u09cd\u09b2\u09c7\u099f \u0987\u09a8\u09b9\u09c7\u09b0\u09bf\u099f\u09cd\u09af\u09be\u09a8\u09cd\u09b8, \u0985\u09a4\u09cd\u09af\u09a8\u09cd\u09a4 \u09b6\u0995\u09cd\u09a4\u09bf\u09b6\u09be\u09b2\u09c0 \u098f\u0995\u099f\u09bf \u0995\u09a8\u09b8\u09c7\u09aa\u09cd\u099f\u0964",
+        "thumbnail": "",
+        "pub_date": "2015-02-25T19:15:07Z",
+        "likes": 0,
+        "title": "Test 6"
+    },
+    "model": "article.article",
+    "pk": 6
+},
+{
+    "fields": {
+        "body": "While STATIC_URL defines the URL to access media via the web server, STATICFILES_DIRS allows you to specify the location of the newly created static directory on your local disk. Just like the TEMPLATE_DIRS tuple, STATICFILES_DIRS requires an absolute path to the static directory. Here, we re-used the BASE_DIR defined in Section 5.1 to create the STATIC_PATH.\r\n\r\nWith those two settings updated, run your Django project\u2019s development server once more. If we want to view our image of Rango, visit the URL http://127.0.0.1:8000/static/images/rango.jpg. If it doesn\u2019t appear, you will want to check to see if everything has been correctly spelt and that you saved your settings.py file, and restart the development server. If it does appear, try putting in additional file types into the static directory and request them via your browser.",
+        "thumbnail": "uploaded_files/00:00:00_300371_6631.jpg",
+        "pub_date": "2015-02-26T07:40:00Z",
+        "likes": 10,
+        "title": "Test 7"
+    },
+    "model": "article.article",
+    "pk": 7
+},
+{
+    "fields": {
+        "body": "autoescape\u00b6\r\n\r\nControls the current auto-escaping behavior. This tag takes either on or off as an argument and that determines whether auto-escaping is in effect inside the block. The block is closed with an endautoescape ending tag.\r\n\r\nWhen auto-escaping is in effect, all variable content has HTML escaping applied to it before placing the result into the output (but after any filters have been applied). This is equivalent to manually applying the escape filter to each variable.\r\n\r\nThe only exceptions are variables that are already marked as \u201csafe\u201d from escaping, either by the code that populated the variable, or because it has had the safe or escape filters applied",
+        "thumbnail": "uploaded_files/00:00:00_98822_5764.jpg",
+        "pub_date": "2015-02-26T12:48:15Z",
+        "likes": 0,
+        "title": "Test 8"
+    },
+    "model": "article.article",
+    "pk": 8
+},
+{
+    "fields": {
+        "body": "This will output a list of <tr> elements with class alternating between row1 and row2. The subtemplate will have access to rowcolors in its context and the value will match the class of the <tr> that encloses it. If the silent keyword were to be omitted, row1 and row2 would be emitted as normal text, outside the <tr> element.\r\n\r\nWhen the silent keyword is used on a cycle definition, the silence automatically applies to all subsequent uses of that specific cycle tag. The following template would output nothing, even though the second call to {% cycle %} doesn\u2019t specify silent",
+        "thumbnail": "",
+        "pub_date": "2015-02-26T13:02:59Z",
+        "likes": 0,
+        "title": "Test 9"
+    },
+    "model": "article.article",
+    "pk": 9
+},
+{
+    "fields": {
+        "body": "truncatewords_html\u00b6\r\n\r\nSimilar to truncatewords, except that it is aware of HTML tags. Any tags that are opened in the string and not closed before the truncation point, are closed immediately after the truncation.\r\n\r\nThis is less efficient than truncatewords, so should only be used when it is being passed HTML text.\r\n\r\nFor example:\r\n\r\n{{ value|truncatewords_html:2 }}\r\n\r\nIf value is \"<p>Joel is a slug</p>\", the output will be \"<p>Joel is ...</p>\".\r\n\r\nNewlines in the HTML content will be preserved.\r\nunordered_list\u00b6\r\n\r\nRecursively takes a self-nested list and returns an HTML unordered list \u2013 WITHOUT opening and closing <ul> tags.\r\n\r\nThe list is assumed to be in the proper format. For example, if var contains ['States', ['Kansas', ['Lawrence', 'Topeka'], 'Illinois']], then {{ var|unordered_list }} would return:\r\n\r\n<li>States\r\n<ul>\r\n        <li>Kansas\r\n        <ul>\r\n                <li>Lawrence</li>\r\n                <li>Topeka</li>\r\n        </ul>\r\n        </li>\r\n        <li>Illinois</li>\r\n</ul>\r\n</li>\r\n\r\nNote: An older, more restrictive and verbose input format is also supported: ['States', [['Kansas', [['Lawrence', []], ['Topeka', []]]], ['Illinois', []]]],\r\nupper\u00b6\r\n\r\nConverts a string into all uppercase.\r\n\r\nFor example:\r\n\r\n{{ value|upper }}\r\n\r\nIf value is \"Joel is a slug\", the output will be \"JOEL IS A SLUG\".\r\nurlencode\u00b6\r\n\r\nEscapes a value for use in a URL.\r\n\r\nFor example:\r\n\r\n{{ value|urlencode }}\r\n\r\nIf value is \"http://www.example.org/foo?a=b&c=d\", the output will be \"http%3A//www.example.org/foo%3Fa%3Db%26c%3Dd\".\r\n\r\nAn optional argument containing the characters which should not be escaped can be provided.\r\n\r\nIf not provided, the \u2018/\u2019 character is assumed safe. An empty string can be provided when all characters should be escaped. For example:\r\n\r\n{{ value|urlencode:\"\" }}\r\n\r\nIf value is \"http://www.example.org/\", the output will be \"http%3A%2F%2Fwww.example.org%2F\".\r\nurlize\u00b6\r\n\r\nConverts URLs and email addresses in text into clickable links.\r\n\r\nThis template tag works on links prefixed with http://, https://, or www.. For example, http://goo.gl/aia1t will get converted but goo.gl/aia1t won\u2019t.\r\n\r\nIt also supports domain-only links ending in one of the original top level domains (.com, .edu, .gov, .int, .mil, .net, and .org). For example, djangoproject.com gets converted.\r\n\r\nLinks can have trailing punctuation (periods, commas, close-parens) and leading punctuation (opening parens), and urlize will still do the right thing.\r\n\r\nLinks generated by urlize have a rel=\"nofollow\" attribute added to them.\r\n\r\nFor example:\r\n\r\n{{ value|urlize }}\r\n\r\nIf value is \"Check out www.djangoproject.com\", the output will be \"Check out <a href=\"http://www.djangoproject.com\" rel=\"nofollow\">www.djangoproject.com</a>\".\r\n\r\nIn addition to web links, urlize also converts email addresses into mailto: links. If value is \"Send questions to foo@example.com\", the output will be \"Send questions to <a href=\"mailto:foo@example.com\">foo@example</a>\".\r\n\r\nThe urlize filter also takes an optional parameter autoescape. If autoescape is True, the link text and URLs will be escaped using Django\u2019s built-in escape filter. The default value for autoescape is True.\r\n\r\nNote\r\n\r\nIf urlize is applied to text that already contains HTML markup, things won\u2019t work as expected. Apply this filter only to plain text.\r\nurlizetrunc\u00b6\r\n\r\nConverts URLs and email addresses into clickable links just like urlize, but truncates URLs longer than the given character limit.\r\n\r\nArgument: Number of characters that link text should be truncated to, including the ellipsis that\u2019s added if truncation is necessary.\r\n\r\nFor example:\r\n\r\n{{ value|urlizetrunc:15 }}\r\n\r\nIf value is \"Check out www.djangoproject.com\", the output would be 'Check out <a href=\"http://www.djangoproject.com\" rel=\"nofollow\">www.djangopr...</a>'.\r\n\r\nAs with urlize, this filter should only be applied to plain text.\r\nwordcount\u00b6\r\n\r\nReturns the number of words.\r\n\r\nFor example:\r\n\r\n{{ value|wordcount }}\r\n\r\nIf value is \"Joel is a slug\", the output will be 4.\r\nwordwrap\u00b6\r\n\r\nWraps words at specified line length.\r\n\r\nArgument: number of characters at which to wrap the text\r\n\r\nFor example:\r\n\r\n{{ value|wordwrap:5 }}\r\n\r\nIf value is Joel is a slug, the output would be:\r\n\r\nJoel\r\nis a\r\nslug\r\n\r\nyesno\u00b6\r\n\r\nMaps values for true, false and (optionally) None, to the strings \u201cyes\u201d, \u201cno\u201d, \u201cmaybe\u201d, or a custom mapping passed as a comma-separated list, and returns one of those strings according to the value:\r\n\r\nFor example:\r\n\r\n{{ value|yesno:\"yeah,no,maybe\" }}\r\n\r\nValue \tArgument \tOutputs\r\nTrue \t  \tyes\r\nTrue \t\"yeah,no,maybe\" \tyeah\r\nFalse \t\"yeah,no,maybe\" \tno\r\nNone \t\"yeah,no,maybe\" \tmaybe\r\nNone \t\"yeah,no\" \t\"no\" (converts None to False if no mapping for None is given)\r\nInternationalization tags and filters\u00b6\r\n\r\nDjango provides template tags and filters to control each aspect of internationalization in templates. They allow for granular control of translations, formatting, and time zone conversions.\r\ni18n\u00b6\r\n\r\nThis library allows specifying translatable text in templates. To enable it, set USE_I18N to True, then load it with {% load i18n %}.\r\n\r\nSee Internationalization: in template code.\r\nl10n\u00b6\r\n\r\nThis library provides control over the localization of values in templates. You only need to load the library using {% load l10n %}, but you\u2019ll often set USE_L10N to True so that localization is active by default.\r\n\r\nSee Controlling localization in templates.\r\ntz\u00b6\r\n\r\nThis library provides control over time zone conversions in templates. Like l10n, you only need to load the library using {% load tz %}, but you\u2019ll usually also set USE_TZ to True so that conversion to local time happens by default.\r\n\r\nSee Time zone aware output in templates.\r\nOther tags and filters libraries\u00b6\r\n\r\nDjango comes with a couple of other template-tag libraries that you have to enable explicitly in your INSTALLED_APPS setting and enable in your template with the {% load %} tag.\r\ndjango.contrib.humanize\u00b6\r\n\r\nA set of Django template filters useful for adding a \u201chuman touch\u201d to data. See django.contrib.humanize.\r\ndjango.contrib.webdesign\u00b6\r\n\r\nA collection of template tags that can be useful while designing a Web site, such as a generator of Lorem Ipsum text. See django.contrib.webdesign.\r\nstatic\u00b6\r\nstatic\u00b6\r\n\r\nTo link to static files that are saved in STATIC_ROOT Django ships with a static template tag. You can use this regardless if you\u2019re using RequestContext or not.\r\n\r\n{% load static %}\r\n<img src=\"{% static \"images/hi.jpg\" %}\" alt=\"Hi!\" />\r\n\r\nIt is also able to consume standard context variables, e.g. assuming a user_stylesheet variable is passed to the template:\r\n\r\n{% load static %}\r\n<link rel=\"stylesheet\" href=\"{% static user_stylesheet %}\" type=\"text/css\" media=\"screen\" />\r\n\r\nIf you\u2019d like to retrieve a static URL without displaying it, you can use a slightly different call:\r\n\r\n{% load static %}\r\n{% static \"images/hi.jpg\" as myphoto %}\r\n<img src=\"{{ myphoto }}\"></img>\r\n\r\nNote\r\n\r\nThe staticfiles contrib app also ships with a static template tag which uses staticfiles' STATICFILES_STORAGE to build the URL of the given path (rather than simply using urllib.parse.urljoin() with the STATIC_URL setting and the given path). Use that instead if you have an advanced use case such as using a cloud service to serve static files:\r\n\r\n{% load static from staticfiles %}\r\n<img src=\"{% static \"images/hi.jpg\" %}\" alt=\"Hi!\" />\r\n\r\nget_static_prefix\u00b6\r\n\r\nYou should prefer the static template tag, but if you need more control over exactly where and how STATIC_URL is injected into the template, you can use the get_static_prefix template tag:\r\n\r\n{% load static %}\r\n<img src=\"{% get_static_prefix %}images/hi.jpg\" alt=\"Hi!\" />\r\n\r\nThere\u2019s also a second form you can use to avoid extra processing if you need the value multiple times:\r\n\r\n{% load static %}\r\n{% get_static_prefix as STATIC_PREFIX %}\r\n\r\n<img src=\"{{ STATIC_PREFIX }}images/hi.jpg\" alt=\"Hi!\" />\r\n<img src=\"{{ STATIC_PREFIX }}images/hi2.jpg\" alt=\"Hello!\" />\r\n\r\nget_media_prefix\u00b6\r\n\r\nSimilar to the get_static_prefix, get_media_prefix populates a template variable with the media prefix MEDIA_URL, e.g.:\r\n\r\n<script type=\"text/javascript\" charset=\"utf-8\">\r\nvar media_path = '{% get_media_prefix %}';\r\n</script>\r\n\r\nTemplates\r\nThe Django template language: For Python programmers\r\nAdditional Information\r\nSearch: Version: 1.7.5",
+        "thumbnail": "",
+        "pub_date": "2015-02-26T13:11:59Z",
+        "likes": 0,
+        "title": "Test 10"
+    },
+    "model": "article.article",
+    "pk": 10
+},
+{
+    "fields": {
+        "body": "pre installed archives:\r\n\r\nsome packages are archived as pre installed packages i.e you don't have to install them , you just need to extract them in a secure place and theres an executable file (name is generally same as the software name) in the extracted folder or in child folders like bin,build etc. you have to find it and make it executable.\r\n\r\nExample: eclipse, adt bundle (android developing tool)\r\n\r\ncode to make executable:\r\n\r\nchmod +x filename_with_exact_path\r\n\r\nthen you can run it with :\r\n\r\ncode:\r\n\r\nfilename\r\n\r\nor double clicking it and selecting run in terminal or run, whatever supports your software.",
+        "thumbnail": "",
+        "pub_date": "2015-02-26T13:28:57.255Z",
+        "likes": 0,
+        "title": "Test 11"
+    },
+    "model": "article.article",
+    "pk": 11
+},
+{
+    "fields": {
+        "body": "Ubuntu: how to install easy_install\r\nPosted on August 6th, 2011 under Linux, Python\r\nTags: easy_install, Python, setuptools, Ubuntu\r\n\r\nInstalling easy_install on Ubuntu\r\n\r\nSo you need easy_install for something on Ubuntu? Installing it is very easy, just follow the instructions below.\r\n\r\n$ sudo apt-get install python-setuptools\r\n\r\nAnd that's it! Yes, that's all you need to do and you will have easy_install available at the command prompt.\r\n\r\nIn case you are wondering, easy_install is a Python module which comes as a part of the Python setuptools, so installing setuptools automatically installs easy_install along with it. easy_install is used for installing and managing Python packages.",
+        "thumbnail": "",
+        "pub_date": "2015-02-26T13:34:17.964Z",
+        "likes": 0,
+        "title": "Test 12"
+    },
+    "model": "article.article",
+    "pk": 12
+},
+{
+    "fields": {
+        "body": "This is a valueless post",
+        "article": 1,
+        "pub_date": "2015-02-25T19:51:40.758Z",
+        "name": "Tanveer"
+    },
+    "model": "article.comment",
+    "pk": 1
+},
+{
+    "fields": {
+        "body": "Anonymous post. ",
+        "article": 1,
+        "pub_date": "2015-02-25T19:53:09.555Z",
+        "name": "django"
+    },
+    "model": "article.comment",
+    "pk": 2
+}
+]

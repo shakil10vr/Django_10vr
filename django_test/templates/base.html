@@ -1,0 +1,35 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>{% block title %}My Base Template{% endblock %}</title>
+	
+	<link rel="stylesheet" type="text/css" href= "{% static "article/css/default.css" %}">
+	
+	<script src="{% static "article/js/jquery-2.1.3.min.js" %}"></script>
+	<script src="{% static "article/js/ajax.js" %}"></script>	
+	
+</head>
+
+<body>
+	<div id="page">
+	
+	<div id="sidebar">
+		{% block sidebar %}
+		<ul>
+			<li><a href="/accounts/login/">Login</a></li>
+			<li><a href="/accounts/register/">Register</a></li>
+			<li><a href="/articles/all">Articles</a></li>
+			<li><a href="/articles/create">Create Articles</a></li>
+			<li><a href="/admin/">Admin</a></li>
+		</ul>
+		{% endblock %}
+	</div>
+	<div id="content">
+		{% block content %} This is the content area{% endblock %}
+		<img src="{% static "article/images/python-logo.jpg" %}" width="200"/>
+	</div>
+
+	</div>
+</body>
+</html>

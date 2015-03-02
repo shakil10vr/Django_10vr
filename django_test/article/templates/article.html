@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block sidebar %}
+	<ul>
+		<li><a href="/articles/all">Articles</a></li>
+			
+	</ul>
+{% endblock %}
+
+{% block content %}
+
+<h1>{{ article.title }}</h1>
+<p>{{article.pub_date}} <br>{{ article.body }}</p>
+
+{% if article.thumbnail %}
+<p><img src="/media/{{article.thumbnail}}" width="250" /></p>
+{% endif %}
+
+<p>{{ article.likes }} people liked this article</a></p>
+<p><a href="/articles/like/{{article.id}}">like</a></p>
+
+<h2>Comments</h2>
+{% for c in article.comment_set.all %}
+<p>{{c.name}} ({{c.pub_date}}): {{c.body}}</p>
+{% endfor %}
+
+<p><a href="/articles/add_comment/{{article.id}}">Add Comment</a></p>
+
+{% endblock %}
